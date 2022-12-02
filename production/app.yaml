@@ -22,7 +22,7 @@ spec:
               name: my-redis
               key: redis-password
               optional: false
-        image: salaboy/app-c863bf8a26a07de0524697b6de429c8c@sha256:ed0f4d543ae7dc5b68b3df0862e929768f75228af92192317ff7aa21ad485d06 
+        image: salaboy/app-c863bf8a26a07de0524697b6de429c8c@sha256:5b2ceca7cfe5f2ed875d595d9ad4b874c5cdc4518d54a94028ca673a3b2a0f36
         livenessProbe:
           httpGet:
             path: /info
